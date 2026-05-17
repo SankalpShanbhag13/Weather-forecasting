@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0051ff 0%, #bbd3db 60%, #ffd700 100%);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.weather-app {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 30px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 0 25px rgba(102, 0, 255, 0.6);
+}
+
+.weather-app h1 {
+  margin-bottom: 10px;
+  color: #00f2ff;
+  font-size: 28px;
+}
+
+.tagline {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#cityInput {
+  padding: 10px;
+  width: 65%;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #00e5ff;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0051d4;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #77ff00;
+}
